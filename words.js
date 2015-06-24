@@ -534,10 +534,10 @@ javascript:(function () {
 		add : function (element, notes, idx) {
 			var popup;
 
-			popup = window.frames[1].document.createElement("div");
+			popup = document.createElement("div");
 			popup.id = "wordspopup-" + (idx + 1);
 			popup.className = "wordspopup";
-			window.frames[1].document.body.appendChild(popup);
+			document.body.appendChild(popup);
 			popup.innerHTML = notes;
 			popup.style.left = element.getBoundingClientRect().left + 'px';
 			popup.style.top = element.getBoundingClientRect().top + 20 + 'px';
@@ -547,10 +547,10 @@ javascript:(function () {
 			this.current.element = element;
 		},
 		remove : function () {
-			var popup = window.frames[1].document.getElementById("wordspopup-" + this.current.idx);
+			var popup = document.getElementById("wordspopup-" + this.current.idx);
 
 			if (popup) {
-				window.frames[1].document.body.removeChild(popup);
+				document.body.removeChild(popup);
 				this.current.element.removeAttribute('aria-describedby');
 				this.current.idx = null;
 				this.current.element = null;
@@ -609,7 +609,7 @@ javascript:(function () {
         }
         var regex = typeof searchText === 'string' ?
                     new RegExp(searchText, 'g') : searchText,
-            childNodes = (searchNode || window.frames[1].document.body).childNodes,
+            childNodes = (searchNode || document.body).childNodes,
             cnLength = childNodes.length,
             excludes = 'html,head,style,title,link,meta,script,object,iframe';
         while (cnLength--) {
@@ -624,8 +624,8 @@ javascript:(function () {
             var parent = currentNode.parentNode,
                 frag = (function(){
                     var html = currentNode.data.replace(regex, replacement),
-                        wrap = window.frames[1].document.createElement('div'),
-                        frag = window.frames[1].document.createwindow.frames[1].documentFragment();
+                        wrap = document.createElement('div'),
+                        frag = document.createDocumentFragment();
                     wrap.innerHTML = html;
                     while (wrap.firstChild) {
                         frag.appendChild(wrap.firstChild);
@@ -637,10 +637,10 @@ javascript:(function () {
         }
     }
 
-    var css = window.frames[1].document.createElement("style");
+    var css = document.createElement("style");
     css.type = "text/css";
     css.innerHTML = ".wordshighlight { background-color: #FFFF88 !important; color: black; } .wordshasnotes { cursor: help; border-bottom:1px dashed !important; } .wordspopup { position: fixed; z-index: 1000 !important; visibility: hidden; background-color: #FFFFCC; color: black; border: solid silver 1px; margin: 5px; padding: 6px;} ";
-    window.frames[1].document.getElementsByTagName("head")[0].appendChild(css);
+    document.getElementsByTagName("docs-editor-container")[0].appendChild(css);
 
 	for (idx = 0; idx < wordsLen; idx++) { // for each word
 		words[idx][0] = words[idx][0].replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
@@ -661,8 +661,8 @@ javascript:(function () {
           findAndReplace( regex, '<span class="wordshighlight" tabindex="0">$1<\/span>');
         }
 	}
-	addEvent(window.frames[1].document, 'focusin', popupEvt);
-	addEvent(window.frames[1].document, 'focusout', popupEvt);
-	addEvent(window.frames[1].document, 'click', popupEvt);
-	addEvent(window.frames[1].document, 'scroll', function () { popup.remove(); });
+	addEvent(document, 'focusin', popupEvt);
+	addEvent(document, 'focusout', popupEvt);
+	addEvent(document, 'click', popupEvt);
+	addEvent(document, 'scroll', function () { popup.remove(); });
 })();
