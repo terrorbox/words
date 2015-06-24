@@ -640,7 +640,7 @@ javascript:(function () {
     var css = document.createElement("style");
     css.type = "text/css";
     css.innerHTML = ".wordshighlight { background-color: #FFFF88 !important; color: black; } .wordshasnotes { cursor: help; border-bottom:1px dashed !important; } .wordspopup { position: fixed; z-index: 1000 !important; visibility: hidden; background-color: #FFFFCC; color: black; border: solid silver 1px; margin: 5px; padding: 6px;} ";
-    document.getElementsByTagName("docs-editor-container")[0].appendChild(css);
+    document.getElementsByTagName("head")[0].appendChild(css);
 
 	for (idx = 0; idx < wordsLen; idx++) { // for each word
 		words[idx][0] = words[idx][0].replace(/([.*+?^=!:${}()|[\]\/\\])/g, "\\$1");
