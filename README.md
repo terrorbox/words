@@ -8,7 +8,7 @@ Follow the [installation instructions](http://terrorbox.org/words.html).
 
 ##Modify/Build
 
-To add to the word list:
+To edit or add to the word list:
 
  1. Edit `wordslist.txt`.
  2. Add entries as `'word'` or `'word',"Optional notes"`.
