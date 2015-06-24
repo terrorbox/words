@@ -4,7 +4,7 @@ Words is a JavaScript bookmarklet for writers. It highlights jargon, weasel word
 
 ##Installation
 
-Follow the [installation instructions](http://terrorbox.org/words).
+Follow the [installation instructions](http://terrorbox.org/words.html).
 
 ##Modify/Build
 
