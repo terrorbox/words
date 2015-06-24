@@ -41,7 +41,7 @@
 'comply with',"jargon"
 'consequently',"Too complex. Try to simplify."
 'demonstrate',"Use 'show'."
-'demonstrates',"Use 'shows'."]
+'demonstrates',"Use 'shows'."
 'depart',"Too complex. Try to simplify."
 'designate',"Too complex. Try to simplify."
 'discontinue',"Too complex. Try to simplify.. Consider 'stop'."
