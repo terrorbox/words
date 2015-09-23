@@ -11,6 +11,7 @@ javascript:(function () {
 
     // list of words to avoid
     var words = [
+    	    ['above',"Don't use to mean 'previous.'"],
             ['a number of',"Too complex. Try to simplify."],
             ['abundance',"Too complex. Try to simplify."],
             ['accompany',"Too complex. Try to simplify."],
@@ -46,6 +47,7 @@ javascript:(function () {
             ['because of the fact that',"Too complex. Try to simplify."],
             ['being done',"Use the active voice. 'We are doing this.'"],
             ['belated',"Too complex. Try to simplify.. Use 'late'."],
+            ['below',"Don't use to mean 'following.'"],
             ['by examination',"Why not 'by examining'?"],
             ['by virtue of',"Too complex. Try to simplify."],
             ['close proximity',"Use 'close'."],
