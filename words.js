@@ -503,7 +503,7 @@ javascript:(function () {
 	    ['same-sex marriage',"Don't use unless the distinction is relevant to what you’re writing. It's just marriage."],
 	    ['mentally ill',"Don't use. Emphasize the person first, not their mental or cognitive condition."],
 	    ['blind',"Use the term low vision to describe a person with limited vision. Blind as an adjective is acceptable to descirbe a pereson who is unable to see."],
-	    ['can\\'t',"Use positive language if you can."]
+	    ["can't","Use positive language if you can."]
 	],
 	wordsLen = words.length,
 	idx;
