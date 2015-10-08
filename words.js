@@ -498,11 +498,11 @@ javascript:(function () {
       	    ['mentally ill',"Don't use. Emphasize the person first, not their mental or cognitive condition."],
       	    ['blind',"Use the term low vision to describe a person with limited vision. Blind as an adjective is acceptable to descirbe a pereson who is unable to see."],
       	    ['###',"Make sure headings are title case and subheadings are sentence case."],
-      	    ['disabled',"Don't refer to a person's disability unless it's relevant to what you're writing."]
-      	    /*["can't","Use positive language if you can."],
+      	    ['disabled',"Don't refer to a person's disability unless it's relevant to what you're writing."],
+      	    ["can't","Use positive language if you can."],
             ["don't","Use positive language if you can."],
       	    ["won't","Use positive language if you can."]
-            ['accomplish',"Too complex. Try 'do' instead."],
+            /*['accomplish',"Too complex. Try 'do' instead."],
             ['accordingly',"Too complex. Try 'so' instead."],
             ['appropriate',"Too complex. Try 'proper' or 'right' instead."],
             ['attempt',"Too complex. Use 'try' instead."],
