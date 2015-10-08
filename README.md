@@ -1,6 +1,6 @@
 # words
 
-Words is a JavaScript bookmarklet for writers. It highlights jargon, weasel words, passive voice, adverbs, and cliches. It's based on [write-good](https://github.com/btford/write-good) by [btford](https://github.com/btford) and [Jargone](https://github.com/rooreynolds/jargone) by [rooreynolds](https://github.com/rooreynolds).
+Words is a JavaScript bookmarklet for writers. It highlights jargon, weasel words, passive voice, adverbs, and cliches. It's based on [write-good](https://github.com/btford/write-good) by [btford](https://github.com/btford), [Jargone](https://github.com/rooreynolds/jargone) by [rooreynolds](https://github.com/rooreynolds), and the [US Federal Plain Language Guidelines](http://www.plainlanguage.gov/index.cfm).
 
 ##Installation
 
