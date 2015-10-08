@@ -536,8 +536,8 @@ javascript:(function () {
             ['in an effort to',"Just use 'to'."],
             ['indicate',"Use 'show' instead."],
             ['initial',"Use 'first instead'."],
-            ['in order to',"Just use 'to'."]
-            /*['in regard to',"Use 'about', 'concerning', or 'on' instead."],
+            ['in order to',"Just use 'to'."],
+            ['in regard to',"Use 'about', 'concerning', or 'on' instead."],
             ['in relation to',"Use 'about', 'with', or 'to' instead."],
             ['in the near future',"Use 'shortly' or 'soon' instead."],
             ['it appears',"Use 'seems' or 'looks like'."],
@@ -547,7 +547,7 @@ javascript:(function () {
             ['objective',"Try 'goal' instead."],
             ['portion',"Use 'part' instead."],
             ['previous',"Don't use as the only directional reference in content. Also try 'earlier'."],
-            ['proceed',"Avoid. Use 'do' or 'go head', or 'try' instead or rephrase completely."],
+            ['proceed',"Avoid. Use 'do' or 'go ahead', or 'try' instead or rephrase completely."],
             ['provide',"Try 'give' or 'offer' instead."],
             ['purchase',"Try 'buy' instead."],
             ['reflect',"Try 'show' or 'say' instead."],
@@ -555,7 +555,7 @@ javascript:(function () {
             ['similar to',"Use 'like' instead."],
             ['timely',"Avoid. Try 'prompt' instead or rephrase."],
             ['time period',"Use one or the other, not both."],
-            ['transmit',"Use sparingly unless referring to transmitting data."]*/
+            ['transmit',"Use sparingly unless referring to transmitting data."]
 	],
 	wordsLen = words.length,
 	idx;
