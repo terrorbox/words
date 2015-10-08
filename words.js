@@ -517,8 +517,8 @@ javascript:(function () {
             ['currently',"Too complex. Use 'now' instead."],
             ['designate',"Use 'choose' instead."],
             ['determine',"Too complex. Use 'decide' or 'find' instead."],
-            ['due to the fact that', "Gross. Use 'due to' or 'because' instead."]
-            /*['during the period',"Eww. Use 'during' instead."],
+            ['due to the fact that', "Gross. Use 'due to' or 'because' instead."],
+            ['during the period',"Eww. Use 'during' instead."],
             ['eliminate',"Too complex. Use 'cut', 'drop', or 'end' instead."],
             ['employ',"Too complex. Try 'use' instead."],
             ['encounter',"Too complex. Use 'meet', 'get', or 'receive' instead depending on context."],
@@ -536,8 +536,8 @@ javascript:(function () {
             ['in an effort to',"Just use 'to'."],
             ['indicate',"Use 'show' instead."],
             ['initial',"Use 'first instead'."],
-            ['in order to',"Just use 'to'."],
-            ['in regard to',"Use 'about', 'concerning', or 'on' instead."],
+            ['in order to',"Just use 'to'."]
+            /*['in regard to',"Use 'about', 'concerning', or 'on' instead."],
             ['in relation to',"Use 'about', 'with', or 'to' instead."],
             ['in the near future',"Use 'shortly' or 'soon' instead."],
             ['it appears',"Use 'seems' or 'looks like'."],
