@@ -502,8 +502,8 @@ javascript:(function () {
       	    ["can't","Use positive language if you can."],
             ["don't","Use positive language if you can."],
       	    ["won't","Use positive language if you can."],
-            ['accomplish',"Too complex. Try 'do' instead."]
-            /*['accordingly',"Too complex. Try 'so' instead."],
+            ['accomplish',"Too complex. Try 'do' instead."],
+            ['accordingly',"Too complex. Try 'so' instead."],
             ['appropriate',"Too complex. Try 'proper' or 'right' instead."],
             ['attempt',"Too complex. Use 'try' instead."],
             ['benefit',"Too complex. Try 'help' instead."],
@@ -517,8 +517,8 @@ javascript:(function () {
             ['currently',"Too complex. Use 'now' instead."],
             ['designate',"Use 'choose' instead."],
             ['determine',"Too complex. Use 'decide' or 'find' instead."],
-            ['due to the fact that', "Gross. Use 'due to' or 'because' instead."],
-            ['during the period',"Eww. Use 'during' instead."],
+            ['due to the fact that', "Gross. Use 'due to' or 'because' instead."]
+            /*['during the period',"Eww. Use 'during' instead."],
             ['eliminate',"Too complex. Use 'cut', 'drop', or 'end' instead."],
             ['employ',"Too complex. Try 'use' instead."],
             ['encounter',"Too complex. Use 'meet', 'get', or 'receive' instead depending on context."],
