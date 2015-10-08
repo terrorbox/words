@@ -11,7 +11,7 @@ javascript:(function () {
 
     // list of words to avoid
     var words = [
-    	      ['above',"Don't use to mean 'previous.'"],
+    	    ['above',"Don't use to mean 'previous.'"],
             ['a number of',"Too complex. Try 'some' instead."],
             ['abundance',"Too complex. Try to simplify."],
             ['accompany',"Too complex. Try to simplify."],
@@ -507,7 +507,7 @@ javascript:(function () {
             ['appropriate',"Too complex. Try 'proper' or 'right' instead."],
             ['attempt',"Too complex. Use 'try' instead."],
             ['benefit',"Too complex. Try 'help' instead."],
-            ['capability',"Too complex. Try 'ability' instead."].,
+            ['capability',"Too complex. Try 'ability' instead."],
             ['caveat',"Use 'warning' instead."],
             ['component',"Too complex. Use 'part' instead."],
             ['concerning',"Too complex. Use 'about' or 'on' instead."],
