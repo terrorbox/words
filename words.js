@@ -498,8 +498,8 @@ javascript:(function () {
       	    ['mentally ill',"Don't use. Emphasize the person first, not their mental or cognitive condition."],
       	    ['blind',"Use the term low vision to describe a person with limited vision. Blind as an adjective is acceptable to descirbe a pereson who is unable to see."],
       	    ['###',"Make sure headings are title case and subheadings are sentence case."],
-      	    ['disabled',"Don't refer to a person's disability unless it's relevant to what you're writing."],
-      	    ["can't","Use positive language if you can."],
+      	    ['disabled',"Don't refer to a person's disability unless it's relevant to what you're writing."]
+      	    /*["can't","Use positive language if you can."],
             ["don't","Use positive language if you can."],
       	    ["won't","Use positive language if you can."]
             ['accomplish',"Too complex. Try 'do' instead."],
@@ -555,7 +555,7 @@ javascript:(function () {
             ['similar to',"Use 'like' instead."],
             ['timely',"Avoid. Try 'prompt' instead or rephrase."],
             ['time period',"Use one or the other, not both."],
-            ['transmit',"Use sparingly unless referring to transmitting data."]
+            ['transmit',"Use sparingly unless referring to transmitting data."]*/
 	],
 	wordsLen = words.length,
 	idx;
