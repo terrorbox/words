@@ -12,7 +12,7 @@ javascript:(function () {
     // list of words to avoid
     var words = [
     	      ['above',"Don't use to mean 'previous.'"],
-            ['a number of',"Too complex. Try 'some' instead."],
+            ['a number of',"Too complex. Try 'some' or 'several' instead, or be more specific."],
             ['abundance',"Too complex. Try to simplify."],
             ['accompany',"Too complex. Try to simplify."],
             ['accrue',"Too complex. Try to simplify."],
@@ -549,7 +549,7 @@ javascript:(function () {
             ['previous',"Don't use as the only directional reference in content. Also try 'earlier'."],
             ['proceed',"Avoid. Use 'do' or 'go ahead', or 'try' instead or rephrase completely."],
             ['provide',"Try 'give' or 'offer' instead."],
-            ['purchase',"Try 'buy' instead."],
+            ['purchase',"Try 'buy' instead unless referring to a specific label or function."],
             ['reflect',"Try 'show' or 'say' instead."],
             ['represents',"Use 'shows' or 'is' instead."],
             ['similar to',"Use 'like' instead."],
