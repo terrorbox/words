@@ -501,9 +501,9 @@ javascript:(function () {
       	    ['disabled',"Don't refer to a person's disability unless it's relevant to what you're writing."],
       	    ["can't","Use positive language if you can."],
             ["don't","Use positive language if you can."],
-      	    ["won't","Use positive language if you can."]
-            /*['accomplish',"Too complex. Try 'do' instead."],
-            ['accordingly',"Too complex. Try 'so' instead."],
+      	    ["won't","Use positive language if you can."],
+            ['accomplish',"Too complex. Try 'do' instead."]
+            /*['accordingly',"Too complex. Try 'so' instead."],
             ['appropriate',"Too complex. Try 'proper' or 'right' instead."],
             ['attempt',"Too complex. Use 'try' instead."],
             ['benefit',"Too complex. Try 'help' instead."],
