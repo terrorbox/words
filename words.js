@@ -507,10 +507,7 @@ javascript:(function () {
 	    ['disabled',"Don't refer to a person's disability unless it's relevant to what you're writing."],
 	    ['can\'t',"Use positive language if you can."],
 -	    ['don\'t',"Use positive language if you can."],
--	    ['won\'t',"Use positive language if you can."],
-+	    ["can't","Use positive language if you can."],
-+	    ["don't","Use positive language if you can."],
-+	    ["won't","Use positive language if you can."]
+-	    ['won\'t',"Use positive language if you can."]
 	],
 	wordsLen = words.length,
 	idx;
